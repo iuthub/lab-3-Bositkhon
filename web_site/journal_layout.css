@@ -31,3 +31,30 @@ body {
 .article > p > img {
   float: right;
 }
+
+.inner-container {
+  overflow: hidden;
+}
+
+.left {
+  width: 19%;
+  float: left;
+}
+.right {
+  width: 80%;
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
+.panel {
+  margin-top: 10px;
+  border: 4px #009097 solid;
+  padding: 5px;
+}
+
+/* exercise 7 */
+*:hover {
+  background-color: yellow;
+}
