@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #36c186;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+  border: 10px white solid;
+  background-color: white;
+}
+.page-header {
+  /* border: 5px red solid; */
+  background-color: #a8f0f0;
+  text-align: right;
+}
+.page-header > .sub-header {
+  font-size: 14pt;
+}
+.article {
+  border: 4px #c2e9e9 solid;
+  background-color: #e8fbfb;
+  padding: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.article > h2 > .date {
+  border-bottom: 5px #009097 dashed;
+}
+
+.article > p > img {
+  float: right;
+}
